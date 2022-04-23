@@ -24,7 +24,7 @@
   void deletePet(int petId) async {}
 ```
 
-4. Call `DioClient().deleteBook()` and pass it the `petId`.
+4. Call `PetsServices().deleteBook()` and pass it the `petId`.
 
 ```dart
   void deletePet(int petId) async {
@@ -36,7 +36,7 @@
 
 ```dart
   void deletePet(int petId) async {
-    await DioClient().deletePet(petId: petId);
+    await PetsServices().deletePet(petId: petId);
     pets.removeWhere((pet) => pet.id == petId);
     notifyListeners();
   }
@@ -82,11 +82,11 @@
   void adoptPet(int petId) async {}
 ```
 
-4. Call `DioClient().adoptPet();` and pass it the `petId`.
+4. Call `PetsServices().adoptPet();` and pass it the `petId`.
 
 ```dart
   void adoptPet(int petId) async {
-    await DioClient().adoptPet(petId: petId);
+    await PetsServices().adoptPet(petId: petId);
   }
 ```
 
@@ -94,7 +94,7 @@
 
 ```dart
   void adoptPet(int petId) async {
-    await DioClient().adoptPet(petId: petId);
+    await PetsServices().adoptPet(petId: petId);
     int index = pets.indexWhere((pet) => pet.id == newPet.id);
     pets[index].adopted = true;
     notifyListeners();
