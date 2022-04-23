@@ -28,7 +28,7 @@
 
 ```dart
   void deletePet(int petId) async {
-    await DioClient().deletePet(petId: petId);
+    await PetsServices().deletePet(petId: petId);
   }
 ```
 
