@@ -3,11 +3,11 @@
 - Endpoints:
 
 ```
-Get pets, type: Get, https://coded-pets-api-crud.herokuapp.com/pets
-Create a new pet, type: Post, https://coded-pets-api-crud.herokuapp.com/pets
-Update a pet, type: Put, https://coded-pets-api-crud.herokuapp.com/pets/{petId}
-Delete a pet, type: Delete, https://coded-pets-api-crud.herokuapp.com/pets/{petId}
-Adopt a pet, type: Post, https://coded-pets-api-crud.herokuapp.com/pets/adopt/{petId}
+Get pets, type: Get, https://coded-pets-api-crud.eapi.joincoded.com/pets
+Create a new pet, type: Post, https://coded-pets-api-crud.eapi.joincoded.com/pets
+Update a pet, type: Put, https://coded-pets-api-crud.eapi.joincoded.com/pets/{petId}
+Delete a pet, type: Delete, https://coded-pets-api-crud.eapi.joincoded.com/pets/{petId}
+Adopt a pet, type: Post, https://coded-pets-api-crud.eapi.joincoded.com/pets/adopt/{petId}
 ```
 
 ### Part 4: Delete Data
